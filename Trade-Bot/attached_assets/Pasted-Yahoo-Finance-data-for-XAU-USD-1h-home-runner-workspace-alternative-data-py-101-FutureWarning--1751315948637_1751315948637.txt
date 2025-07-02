@@ -1,0 +1,16 @@
+Yahoo Finance data for XAU/USD (1h)
+/home/runner/workspace/alternative_data.py:101: FutureWarning: 'H' is deprecated and will be removed in a future version, please use 'h' instead.
+  data = data.resample('4H').agg({
+✅ Yahoo Finance data for XAU/USD (4h)
+✅ Yahoo Finance data for XAU/USD (1d)
+Metals API error: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffcfb0cd0>: Failed to resolve 'api.metals.live' ([Errno -3] Temporary failure in name resolution)"))
+Metals API error: HTTPSConnectionPool(host='api.metals.live', port=443): Max retries exceeded with url: /v1/spot (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffe154b90>: Failed to resolve 'api.metals.live' ([Errno -3] Temporary failure in name resolution)"))
+/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/ta/trend.py:1030: FutureWarning: Series.__setitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To set a value by position, use `ser.iloc[pos] = value`
+  self._psar[i] = high2
+✅ Processed 1h data for XAU/USD
+/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/ta/trend.py:1030: FutureWarning: Series.__setitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To set a value by position, use `ser.iloc[pos] = value`
+  self._psar[i] = high2
+✅ Processed 4h data for XAU/USD
+/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/ta/trend.py:1030: FutureWarning: Series.__setitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To set a value by position, use `ser.iloc[pos] = value`
+  self._psar[i] = high2
+✅ Processed 1d data for XAU/USD
